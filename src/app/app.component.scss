@@ -1,0 +1,106 @@
+.countdown-container{
+    font-size: 5vh;
+}
+
+.limited-time{
+    display: flex;
+    flex-direction: row;
+    background-color: #d92a2a;
+    width: 40%;
+    border-radius: 1rem;
+    //text-align:center;
+    height: 13vh;
+}
+
+.clock-container{
+    display: flex;
+    width: 20%;
+    img{
+      width: 500px;
+      padding-left: 2vw;
+    }
+}
+
+.timer-content{
+
+    //color:white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 80%;
+    border-radius: 2rem;
+    h2{
+        color: white;
+        font-size: 3vh;
+        margin-top:0.2rem;
+        margin-bottom:0rem;
+        letter-spacing: 0.1rem;
+    }
+    
+}
+:host ::ng-deep .custom-style {
+    font-size: 3.5rem;
+    font-weight: 500;
+    .item {
+        margin-left: 0.2rem;
+        margin-right:0.2rem;
+      &:nth-child(1) {
+        color:  #5c5c5c ;
+        background-color:white;
+        border-radius: 0.7rem;
+        padding-top:0.5rem;
+        padding-bottom: 0.5rem;
+        padding-right:1.5rem;
+        padding-left:1.5rem;
+        
+            
+      }
+      &:nth-child(3) {
+        color: #5c5c5c;
+        background-color:white;
+        border-radius: 0.7rem;
+        padding-top:0.5rem;
+        padding-bottom: 0.5rem;
+        padding-right:1.5rem;
+        padding-left:1.5rem;
+      }
+      &:nth-child(5) {
+        color: #5c5c5c;
+        background-color:white;
+        border-radius: 0.7rem;
+        padding-top:0.5rem;
+        padding-bottom: 0.5rem;
+        padding-right:1.5rem;
+        padding-left:1.5rem;
+      }
+      &:nth-child(7) {
+        color: #5c5c5c;
+        background-color:white;
+        border-radius: 0.7rem;
+        padding-top:0.5rem;
+        padding-bottom: 0.5rem;
+        padding-right:1.5rem;
+        padding-left:1.5rem;
+        
+      }
+    }
+
+    .item2{
+        &:nth-child(2) {
+            color: white;
+            font-size: 4rem;
+        }
+        
+        &:nth-child(4) {
+            color: white;
+            font-size: 4rem;
+        }
+
+        &:nth-child(6) {
+           display: none;
+        }
+    }
+
+  }
+
+ 
